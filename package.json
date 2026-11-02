@@ -1,5 +1,5 @@
 {
-  "name": "next-navigation-guard",
+  "name": "@esgdatapoint/next-navigation-guard",
   "version": "0.3.0",
   "description": "Navigation Guard for Next.js App Router and Pages Router.",
   "main": "./dist/index.js",
@@ -19,6 +19,7 @@
     "watch": "tsc --watch -p .",
     "test": "echo \"Error: no test specified\" && exit 1",
     "check:packaging": "pnpm dlx @arethetypeswrong/cli --pack .",
+    "prepublish": "npm run build",
     "e2e": "playwright test",
     "e2e:ui": "playwright test --ui",
     "e2e:install": "playwright install"
@@ -28,7 +29,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/LayerXcom/next-navigation-guard.git"
+    "url": "https://github.com/ESGDatapoint/next-navigation-guard.git"
   },
   "packageManager": "pnpm@9.9.0+sha512.60c18acd138bff695d339be6ad13f7e936eea6745660d4cc4a776d5247c540d0edee1a563695c183a66eb917ef88f2b4feb1fc25f32a7adcadc7aaf3438e99c1",
   "peerDependencies": {
